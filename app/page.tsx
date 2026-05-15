@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useEffect, useState, useRef, useMemo } from "react";
-import FallingLamps from "@/app/components/FallingLamps";
+import RoseHeroTemp from "@/app/components/RoseHeroTemp";
 import CoupleMessage from "@/app/components/CoupleMessage";
 import MarriageCountdown from "@/app/components/MarriageCountdown";
 
@@ -24,8 +24,8 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 
   return (
     <img
-      src="/lamp.png"
-      alt="Lamp"
+      src="/flower_petals.webp"
+      alt="petal"
       className={`floating-lamp ${className}`}
       style={{
         animationName: reverse ? 'lampFlowReverse' : 'lampFlow',
@@ -63,15 +63,15 @@ export default function Home() {
     },
 
     {
-      title_ceremony: "Engagement",
-      image: "/assets/engagement.webp",
+      title_ceremony: "Pre-wedding",
+      image: "/assets/pre_wedding.webp",
       venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 6pm Onwards</>,
       link: "https://maps.app.goo.gl/53z68ksx4cYgoNm59",
     },
 
     {
-      title_ceremony: "Shaadi",
-      image: "/assets/shaadi.webp",
+      title_ceremony: "Anand Karaj",
+      image: "/assets/anand_karaj.webp",
       venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 6pm Onwards</>,
       link: "https://maps.app.goo.gl/mxcwCxWhH1TXBC8c9",
     },
@@ -145,148 +145,92 @@ export default function Home() {
 
       {/* hero section */}
       <div className=" bg-[url('/assets/respo_bg.webp')] md:bg-[url('/assets/background.webp')] bg-cover bg-no-repeat
-                       bg-top md:bg-center w-full overflow-hidden relative">
+                       bg-top md:bg-position-[center_top] lg:bg-center w-full overflow-hidden relative">
+        
+        <RoseHeroTemp />
 
-        {/* Decorative Lamps - Natural Flow Pattern */}
-        {/* Left-to-Right Lamps - Less crowded */}
-        <FloatingLamp className="absolute top-10 left-8 w-40 h-40 transform rotate-12 opacity-90" />
-        <FloatingLamp className="absolute top-30 left-20 w-36 h-36 transform rotate-45 opacity-80" />
-        <FloatingLamp className="absolute top-50 left-40 w-32 h-32 transform rotate-30 opacity-85" />
-        <FloatingLamp className="absolute top-70 left-60 w-38 h-38 transform rotate-15 opacity-80" />
-        <FloatingLamp className="absolute top-90 left-80 w-34 h-34 transform rotate-25 opacity-75" />
-        <FloatingLamp className="absolute top-110 left-100 w-28 h-28 transform rotate-10 opacity-85" />
-        <FloatingLamp className="absolute top-130 left-120 w-36 h-36 transform rotate-35 opacity-75" />
-        <FloatingLamp className="absolute top-150 left-140 w-30 h-30 transform rotate-22 opacity-85" />
-        <FloatingLamp className="absolute top-170 left-160 w-32 h-32 transform rotate-18 opacity-80" />
-        <FloatingLamp className="absolute top-190 left-180 w-40 h-40 transform rotate-28 opacity-85" />
+        <div className="pt-40 md:pt-88 lg:pt-160 3xl:pt-200 relative z-10">
+          <h2 className="text-[#AE633A] text-center leading-tight text-2xl md:text-5xl lg:text-[80px] pb-120
+                          md:pb-350 lg:pb-470 3xl:pb-750 flex flex-col items-center gap-y-0 lg:gap-y-5">
 
+            <span className="parisienne-regular">Harpreet</span>
 
-        <FloatingLamp className="hidden lg:block absolute top-50 left-40 w-40 h-40 transform rotate-30 opacity-85" />
-        <FloatingLamp className="hidden lg:block absolute top-60 left-40 w-40 h-40 transform rotate-15 opacity-80" />
-        <FloatingLamp className="hidden lg:block absolute top-80 left-80 w-40 h-40 transform rotate-25 opacity-75" />
-        <FloatingLamp className="hidden lg:block absolute top-100 left-100 w-40 h-40 transform rotate-10 opacity-85" />
-        <FloatingLamp className="hidden lg:block absolute top-120 left-120 w-32 h-32 transform rotate-35 opacity-75" />
-        <FloatingLamp className="hidden lg:block absolute top-140 left-140 w-40 h-40 transform rotate-22 opacity-85" />
-        <FloatingLamp className="hidden lg:block absolute top-160 left-160 w-32 h-32 transform rotate-18 opacity-80" />
-        <FloatingLamp className="hidden lg:block absolute top-180 left-180 w-40 h-40 transform rotate-28 opacity-85" />
+            <span className="jacques-francois text-base md:text-2xl lg:text-[38px] tracking-widest font-cormorant">WEDS</span>
 
-        <FloatingLamp className="hidden lg:block absolute top-50 left-40 w-40 h-40 transform rotate-30 opacity-85" />
-        <FloatingLamp className="hidden lg:block absolute top-60 left-40 w-40 h-40 transform rotate-15 opacity-80" />
-        <FloatingLamp className="hidden lg:block absolute top-80 left-80 w-40 h-40 transform rotate-25 opacity-75" />
-
-
-
-
-
-        {/* Right-to-Left Lamps - Less crowded */}
-        <FloatingLamp className="absolute top-20 right-12 w-32 h-32 transform -rotate-6 opacity-85" reverse={true} />
-        <FloatingLamp className="absolute top-40 right-32 w-28 h-28 transform -rotate-12 opacity-75" reverse={true} />
-        <FloatingLamp className="absolute top-60 right-52 w-36 h-36 transform -rotate-20 opacity-90" reverse={true} />
-        <FloatingLamp className="absolute top-80 right-72 w-30 h-30 transform -rotate-8 opacity-85" reverse={true} />
-        <FloatingLamp className="absolute top-100 right-92 w-34 h-34 transform -rotate-15 opacity-80" reverse={true} />
-        <FloatingLamp className="absolute top-120 right-112 w-38 h-38 transform -rotate-25 opacity-90" reverse={true} />
-        <FloatingLamp className="absolute top-140 right-132 w-26 h-26 transform -rotate-18 opacity-80" reverse={true} />
-        <FloatingLamp className="absolute top-160 right-152 w-32 h-32 transform -rotate-30 opacity-75" reverse={true} />
-        <FloatingLamp className="absolute top-180 right-172 w-36 h-36 transform -rotate-22 opacity-85" reverse={true} />
-        <FloatingLamp className="absolute top-200 right-192 w-30 h-30 transform -rotate-35 opacity-85" reverse={true} />
-
-
-        <FloatingLamp className="hidden lg:block absolute top-30 right-12 w-40 h-40 transform -rotate-6 opacity-85" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-50 right-32 w-40 h-40 transform -rotate-12 opacity-75" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-70 right-52 w-40 h-40 transform -rotate-20 opacity-90" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-90 right-72 w-40 h-40 transform -rotate-8 opacity-85" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-110 right-92 w-32 h-32 transform -rotate-15 opacity-80" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-130 right-112 w-40 h-40 transform -rotate-25 opacity-90" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-150 right-132 w-40 h-40 transform -rotate-18 opacity-80" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-170 right-152 w-32 h-32 transform -rotate-30 opacity-75" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-190 right-172 w-40 h-40 transform -rotate-22 opacity-85" reverse={true} />
-
-
-        <FloatingLamp className="hidden lg:block absolute top-150 right-132 w-40 h-40 transform -rotate-18 opacity-80" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-170 right-152 w-40 h-40 transform -rotate-30 opacity-75" reverse={true} />
-        <FloatingLamp className="hidden lg:block absolute top-190 right-172 w-40 h-40 transform -rotate-22 opacity-85" reverse={true} />
-
-
-
-
-        {/* <FallingLamps /> */}
-        <div className="lg:pt-40 md:pt-30 md:pb-0 relative z-10 pt-6">
-          <h2 className="text-[#AF630E] text-center leading-tight text-3xl md:text-5xl lg:text-[64px] pb-120
-                          md:pb-400 lg:pb-470 3xl:pb-500 flex flex-col items-center gap-y-0 lg:gap-y-5">
-
-            <span className="jacques-francois">VEERENDRA</span>
-
-            <span className="jacques-francois text-xl md:text-3xl lg:text-5xl tracking-widest font-cormorant">WEDS</span>
-
-            <span className="jacques-francois">MEERA</span>
+            <span className="parisienne-regular">Ritika</span>
 
           </h2>
 
-          <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-50 pt-0">
-            <p className="jacques-francois text-base md:text-2xl lg:text-3xl text-[#FFF097] text-center">ॐ श्री गणेशाय नम</p>
+          <div className="flex flex-col items-center text-center gap-6 mt-0 lg:pt-50 pt-0">
             <Image
-              src="/assets/ganesha.webp"
+              src="/assets/shabd.webp"
               alt="idol"  width={100} height={100}
-              className="w-23 h-30 md:w-35 md:h-46 lg:w-41 lg:h-53  object-cover"/>
+              className="w-13 h-8 md:w-26 md:h-14 lg:w-38 lg:h-22 object-cover"/>
+            <Image
+              src="/assets/vachan.webp"
+              alt="idol"  width={100} height={100}
+              className="w-20 h-15 md:w-40 md:h-30 lg:w-59 lg:h-45 object-cover"/>
 
-            <h2 className="text-[#FFF097] text-sm md:text-xl lg:text-[26px] md:pt-8 jacques-francois">
-              With the heavenly blessings of <br />
-              Shri Rajesh Gaur & Shrimati Sunita Gaur
+            <h2 className="text-[#15528A] text-sm md:text-xl lg:text-3xl md:pt-8 jacques-francois">
+              With the heavenly blessings of <br /> Our late grandparents, <br /> Sdn. Gurmeet Kapoor and Sd. Maninder Singh.
             </h2>
 
-            <hr className="lg:w-24 w-16 border-[#FFF097] my-2 md:my-4" />
-            <h2 className="text-[#FFF097] text-sm md:text-xl lg:text-[26px] jacques-francois">
-              Shri Amit Chauhan & Shrimati Vaishali Chauhan
+            <hr className="w-16 lg:w-24 border-[#15528A] my-2 md:my-4" />
+            <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] jacques-francois">
+              The Kapoor Family
             </h2>
           </div>
 
           <div className="mt-8 text-center">
-            <h2 className="text-[#FFF097] jacques-francois text-3xl md:text-5xl lg:text-[64px] leading-tight lg:tracking-wide tracking-wider">
-              INVITE
+            <h2 className="text-[#15528A] jacques-francois text-3xl md:text-5xl lg:text-6xl leading-tight lg:tracking-wide tracking-wider">
+              INVITES
             </h2>
 
-            <p className="text-[#FFF097] jacques-francois text-sm md:text-xl lg:text-[26px] mt-6">
-              You to join us in the wedding celebrations of
+            <p className="text-[#15528A] jacques-francois text-sm md:text-xl lg:text-3xl mt-6">
+              you to join us in the wedding celebrations of
             </p>
 
-            <h2 className="text-[#FFF097] jacques-francois text-center mt-14 text-3xl md:text-5xl lg:text-[64px] leading-tight font-medium">
-              VEERENDRA
+            <h2 className="text-[#15528A] jacques-francois text-center mt-14 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
+              HARPREET
             </h2>
 
-            <h2 className="text-[#FFF097] jacques-francois text-center mt-0 text-3xl md:text-5xl lg:text-[64px] leading-tight font-medium">
-              <span className="text-[#FFF097] jacques-francois text-center lg:mt-10 mt-0 text-xl md:text-3xl lg:text-5xl leading-tight">&
-              </span>   <br />
-              MEERA
-            </h2>
-
-            <p className="text-[#FFF097] jacques-francois text-sm md:text-xl lg:text-3xl mt-8 md:mt-14">
-              Daughter of <br /> Shri Mahesh Rajput & Shrimati Asha Rajput
+            <p className="text-[#15528A] jacques-francois text-sm md:text-xl lg:text-3xl mt-4">
+              S/O <br /> Dharmender Singh and Jaya Kaur
             </p>
 
-            <p className="text-[#FFF097] jacques-francois text-sm md:text-xl lg:text-3xl mt-8">
+            <h2 className="text-[#15528A] jacques-francois text-center mt-4 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
+              <span className="text-[#15528A] jacques-francois text-center lg:mt-10 mt-0 text-4xl md:text-6xl lg:text-[100px] leading-tight">
+                & </span>   <br /> RITIKA
+            </h2>
+
+            <p className="text-[#15528A] jacques-francois text-sm md:text-xl lg:text-3xl mt-4">
+              D/O <br /> Manak Kapoor and Rani Kapoor
+            </p>
+
+            <p className="text-[#15528A] jacques-francois text-sm md:text-xl lg:text-3xl mt-8">
               On the following events
             </p>
           </div>
 
           <div className="flex justify-center mt-20 lg:mt-40">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-28 3xl:gap-56">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-32 3xl:gap-50">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
                   <img
                     src={event.image}
                     className="lg:w-80 w-75 sm:w-76 h-auto"/>
 
-                  <h2 className="text-[#FFF097] jacques-francois lg:text-[45px] md:text-2xl text-3xl mt-4">
+                  <h2 className="text-[#15528A] jacques-francois text-3xl md:text-2xl lg:text-[42px] mt-4">
                     {event.title_ceremony}
                   </h2>
 
-                  <p className="text-[#FFF097] jacques-francois text-[14px] sm:text-base mt-2">
-                    <span className="text-sm md:text-base lg:text-[20px]">{event.venue_address}</span> <br />
+                  <p className="text-[#15528A] jacques-francois text-sm md:text-base mt-2">
+                    <span className="text-sm md:text-base lg:text-xl">{event.venue_address}</span> <br />
                   </p>
 
                   <a
                     href={event.link}
-                    className="text-[#FFF097] underline md:text-sm text-[18px] mt-2 jacques-francois"
+                    className="text-[#15528A] underline md:text-sm text-lg mt-2 jacques-francois"
                     target="_blank">
                     See the route
                   </a>
@@ -297,22 +241,21 @@ export default function Home() {
           </div>
 
 
-          <div className="flex items-center pt-30 lg:pt-50 3xl:pt-90">
-            <Image
-              src="/assets/couple_one.webp"
-              alt="couple" width={900} height={1200}
-              className="w-60 h-80 md:w-131 md:h-190 lg:w-219 lg:h-294 3xl:w-270 3xl:h-346 object-cover"/>
-
+          <div className="relative flex flex-col items-center pt-30 lg:pt-50 3xl:pt-90 3xl:gap-60">
             {/* Center Text */}
-            <div className="flex flex-col justify-center items-center text-center md:mb-0 lg:mb-0">
-              <p className="font-Cormorant-upright text-2xl md:text-2xl lg:text-[38px] text-[#FFF097]">
+            <div className="absolute flex flex-col justify-center items-center text-center md:mb-0 lg:mb-0 md:top-50 lg:top-84 3xl:top-152">
+              <p className="font-Cormorant font-semibold text-lg md:text-2xl lg:text-[38px] text-[#0064BF]">
                 MEET THE
               </p>
 
-              <h2 className="text-5xl lg:text-[130px] text-center text-[#FF8170] lg:pt-12 font-cormorant-upright lg:leading-18 md:leading-6 leading-6 pt-6">
-                <span className="text-[#F2AD15] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#F2AD15]">Groom</span>
+              <h2 className="text-6xl md:text-7xl lg:text-[130px] text-center text-[#6CB9FF] lg:pt-12 font-cormorant-upright lg:leading-18 md:leading-8 leading-6 pt-6">
+                <span className="text-[#15528A] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#15528A]">Groom</span>
               </h2>
             </div>
+            <Image
+              src="/assets/couple.webp"
+              alt="couple" width={900} height={1200}
+              className="w-108 h-104 md:w-205 md:h-198 lg:w-393 lg:h-374 3xl:w-480 3xl:h-463 object-cover"/>
           </div>
           
         </div>
@@ -321,8 +264,8 @@ export default function Home() {
       <CoupleMessage />
 
       <div className="bg-[url('/assets/respo_three.webp')] md:bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
-        <div className="h-250 md:h-179 lg:h-333 3xl:h-419 flex flex-col items-center relative">
-          <img src="/assets/logo.webp" alt="logo" width={250} height={300} className="absolute top-28 w-42 h-48 md:top-41 md:w-28 md:h-35 lg:top-78 lg:w-48 lg:h-55 3xl:top-101" />
+        <div className="h-253 md:h-179 lg:h-330 3xl:h-421 flex flex-col items-center relative">
+          <img src="/assets/logo.webp" alt="logo" width={250} height={300} className="absolute top-50 w-20 h-24 md:top-41 md:w-31 md:h-35 lg:top-84 lg:w-46 lg:h-52 3xl:top-118" />
         </div>
       </div>
 

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://aura-demo-flame.vercel.app/"),
 
   openGraph: {
-    title: "Veerendra & Meera",
+    title: "Harpreet & Ritika",
     description: "Join as they begin their forever. 8, 9 & 11 March 2026",
     url: "https://aura-demo-flame.vercel.app/",
     siteName: "InviteArc",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Veerendra & Meera ",
+        alt: "Harpreet & Ritika ",
       }, 
     ],
     type: "website",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Veerendra & Meera",
+    title: "Harpreet & Ritika",
     description: "Join as they begin their forever. 8, 9 & 11 March, 2026",
     images: ["/og.jpg"],
   },

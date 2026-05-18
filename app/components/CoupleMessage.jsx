@@ -15,7 +15,7 @@ export default function CoupleMessage() {
                     you at the wedding.
                 </h2>
                  <div className="relative flex flex-col items-center mt-12 md:mt-12 lg:mt-20 3xl:mt-30">
-                  <h2 className=" text-[#15528A] text-left text-xl md:text-4xl lg:text-[68px] pl-64 md:pl-114 lg:pl-210 3xl:pl-270 md:mt-2 lg:mt-3 3xl:mt-5 flex flex-col justify-end ">
+                  <h2 className=" text-[#15528A] text-left text-xl md:text-4xl lg:text-[68px] 3xl:text-[78px] pl-64 md:pl-114 lg:pl-210 3xl:pl-280 md:mt-2 lg:mt-3 3xl:mt-5 flex flex-col justify-end ">
                     <span className="jacques-francois">HARPREET</span>
                     <span className="lavishly-yours-regular opacity-50 text-[#6CB9FF] text-5xl md:text-7xl lg:text-[150px] tracking-widest -mt-6 pl-5 md:-mt-9 md:pl-10 lg:-mt-19 lg:pl-18">&</span>
                     <span className="jacques-francois -mt-4 md:-mt-6 lg:-mt-10">RITIKA</span>
@@ -48,9 +48,9 @@ export default function CoupleMessage() {
                 <img
                   src="/assets/weather.webp"
                   alt="weather"
-                  className="w-32 h-26 md:w-24 md:h-22 lg:w-28 lg:h-26"
+                  className="w-31 h-25 md:w-24 md:h-22 lg:w-28 lg:h-26"
                 />
-                <h2 className="text-[50px] md:text-3xl lg:text-[42px] text-[#15528A] mt-2 jacques-francois">
+                <h2 className="text-[40px] md:text-3xl lg:text-[42px] text-[#15528A] mt-1 jacques-francois">
                   Weather
                 </h2>
                 <p className="text-[14px] lg:text-[15px] text-[#15528A] mt-1 jacques-francois md:leading-5">
@@ -63,9 +63,9 @@ export default function CoupleMessage() {
                 <img
                   src="/assets/staff.webp"
                   alt="drive"
-                  className="w-29 h-36 md:w-17 md:h-23 lg:w-21 lg:h-27"
+                  className="w-28 h-35 md:w-17 md:h-23 lg:w-21 lg:h-27"
                 />
-                <h2 className="text-[50px] md:text-3xl lg:text-[42px] text-[#15528A] mt-2 jacques-francois">
+                <h2 className="text-[40px] md:text-3xl lg:text-[42px] text-[#15528A] mt-1 jacques-francois">
                   Staff
                 </h2>
                 <p className="text-[14px] lg:text-[15px] md:leading-5 text-[#15528A] mt-1 jacques-francois">
@@ -78,9 +78,9 @@ export default function CoupleMessage() {
                 <img
                   src="/assets/parking.webp"
                   alt="car"
-                  className="w-32 h-26 md:w-26 md:h-23 lg:w-30 lg:h-27"
+                  className="w-31 h-25 md:w-26 md:h-23 lg:w-30 lg:h-27"
                 />
-                <h2 className="text-[50px] md:text-3xl lg:text-[42px] text-[#15528A] mt-2 jacques-francois">
+                <h2 className="text-[40px] md:text-3xl lg:text-[42px] text-[#15528A] mt-1 jacques-francois">
                   Parking
                 </h2>
                 <p className="text-[14px] lg:text-[15px] md:leading-5 text-[#15528A] mt-1 jacques-francois">

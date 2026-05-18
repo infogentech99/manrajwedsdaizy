@@ -144,14 +144,14 @@ export default function Home() {
       <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
 
       {/* hero section */}
-      <div className=" bg-[url('/assets/respo_bg.webp')] md:bg-[url('/assets/background.webp')] bg-cover bg-no-repeat
-                       bg-top md:bg-position-[center_top] lg:bg-center w-full overflow-hidden relative">
+      <div className=" bg-[url('/assets/respo_bg.webp')] md:bg-[url('/assets/background.webp')] 3xl:bg-[url('/assets/bg.webp')]
+                       bg-cover bg-no-repeat bg-top md:bg-position-[center_top] lg:bg-center w-full overflow-hidden relative">
         
         <RoseHeroTemp />
 
         <div className="pt-40 md:pt-88 lg:pt-160 3xl:pt-200 relative z-10">
           <h2 className="text-[#AE633A] text-center leading-tight text-2xl md:text-5xl lg:text-[80px] pb-120
-                          md:pb-350 lg:pb-470 3xl:pb-750 flex flex-col items-center gap-y-0 lg:gap-y-5">
+                          md:pb-350 lg:pb-470 3xl:pb-550 flex flex-col items-center gap-y-0 lg:gap-y-5">
 
             <span className="parisienne-regular">Harpreet</span>
 
@@ -218,7 +218,7 @@ export default function Home() {
                 <div key={i} className="flex flex-col items-center text-center">
                   <img
                     src={event.image}
-                    className="lg:w-80 w-75 sm:w-76 h-auto"/>
+                    className="w-75 md:w-76 lg:w-80 3xl:w-100 h-auto"/>
 
                   <h2 className="text-[#15528A] jacques-francois text-3xl md:text-2xl lg:text-[42px] mt-4">
                     {event.title_ceremony}

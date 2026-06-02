@@ -271,7 +271,7 @@ export default function Home() {
 
       <MarriageCountdown />
 
-      <div className="fixed top-5 left-5 z-50">
+      {/* <div className="fixed top-5 left-5 z-50">
         <a href="https://invitearc.com/">
           <button className="flex items-center gap-3 border-white border-2 bg-white/0 backdrop-blur text-white px-6 py-3 rounded-full shadow-lg cursor-pointer">
             <span className="text-3xl leading-none">←</span>
@@ -280,7 +280,7 @@ export default function Home() {
             </span>
           </button>
         </a>
-      </div>
+      </div> */}
     </>
   );
 }

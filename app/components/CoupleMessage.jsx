@@ -39,7 +39,7 @@ export default function CoupleMessage() {
                                md:h-59 lg:right-150 lg:top-61 lg:w-82 lg:h-110 3xl:right-180 3xl:top-75 3xl:w-102 3xl:h-130 z-40"
           />
           <img
-            src="/assets/four.png"
+            src="/assets/four_n.webp"
             alt="couple"
             className="absolute right-9 top-18 w-39 h-59 md:right-22 md:top-30 md:w-69 
                                md:h-98 lg:right-49 lg:top-55 lg:w-118 lg:h-176 3xl:right-61 3xl:top-67 3xl:w-138 3xl:h-196 z-30"

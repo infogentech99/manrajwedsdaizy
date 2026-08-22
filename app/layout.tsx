@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://aura-demo-flame.vercel.app/"),
 
   openGraph: {
-    title: "Harpreet & Ritika",
+    title: "Sargun Singh Kamboj & Kopal Kaur Ajmani",
     description: "Join as they begin their forever. 8, 9 & 11 March 2026",
     url: "https://aura-demo-flame.vercel.app/",
     siteName: "InviteArc",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Harpreet & Ritika ",
+        alt: "Sargun Singh Kamboj & Kopal Kaur Ajmani ",
       }, 
     ],
     type: "website",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Harpreet & Ritika",
+    title: "Sargun Singh Kamboj & Kopal Kaur Ajmani",
     description: "Join as they begin their forever. 8, 9 & 11 March, 2026",
     images: ["/og.jpg"],
   },
@@ -61,7 +61,7 @@ export default function RootLayout({
       <body 
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-      <DisableInspect /> 
+      {/* <DisableInspect />  */}
         {children}
         
       </body>

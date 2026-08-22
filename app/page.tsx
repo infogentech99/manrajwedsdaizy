@@ -43,45 +43,46 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 export default function Home() {
   const events = [
     {
-      title_ceremony: "Mehendi",
-      image: "/assets/mehendi.webp",
-      venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 9pm Onwards</>,
-      link: "https://maps.app.goo.gl/53z68ksx4cYgoNm59",
+      title_ceremony: "Haldi and Mehndi",
+      image: "/assets/haldi_amul.png",
+      venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Govind Farm) <br /> 11:00 am Onwards</>,
+      link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
     },
 
     {
-      title_ceremony: "Haldi",
-      image: "/assets/haldi.webp",
-      venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 6pm Onwards</>,
-      link: "https://maps.app.goo.gl/ywMPWwHjbXvqwiWc8",
-    },
-    {
-      title_ceremony: "Cocktail",
-      image: "/assets/cocktail.webp",
-      venue_address: <>Friday, March 9th 2026<br /> JW Mariott, Mussoorie <br /> 6pm Onwards</>,
-      link: "https://maps.app.goo.gl/f599YkTSEYKDEK5L7",
+      title_ceremony: "Jago",
+      image: "/assets/jago_amul.png",
+      venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Govind Farm) <br /> 7:00 pm Onwards</>,
+      link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
     },
 
     {
-      title_ceremony: "Pre-wedding",
-      image: "/assets/pre_wedding.webp",
-      venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 6pm Onwards</>,
-      link: "https://maps.app.goo.gl/53z68ksx4cYgoNm59",
+      title_ceremony: "Ring ceremony",
+      image: "/assets/ring_amul.png",
+      venue_address: <>Friday, November 27th 2026 <br /> Hotel Pasricha - Banquets & Lawns <br /> 8:00 pm Onwards</>,
+      link: "https://maps.app.goo.gl/8V9hVAr9Tz9qoQey7",
     },
 
     {
       title_ceremony: "Anand Karaj",
       image: "/assets/anand_karaj.webp",
-      venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 6pm Onwards</>,
-      link: "https://maps.app.goo.gl/mxcwCxWhH1TXBC8c9",
+      venue_address: <>Saturday, November 28th 2026 <br /> GURUDWARA SINGH SABHA, BILHARI <br /> 9:30 pm Onwards</>,
+      link: "https://maps.app.goo.gl/J8xLdsUC1PTdgQrN9",
+    },
+
+     {
+      title_ceremony: "Wedding ",
+       image: "/assets/anand_amul.png",
+      venue_address: <>Saturday, November 28th 2026 <br /> Tulip Hall, Hotel Pasricha <br /> 2:00 pm Onwards</>,
+      link: "https://maps.app.goo.gl/8V9hVAr9Tz9qoQey7",
     },
 
 
     {
       title_ceremony: "Reception",
-      image: "/assets/reception.webp",
-      venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 6pm Onwards</>,
-      link: "https://maps.app.goo.gl/f599YkTSEYKDEK5L7",
+      image: "/assets/reception_amul.png",
+      venue_address: <>Sunday, November 29th 2026 <br />  Hotel Vijan Mahal <br /> 7:00 pm Onwards</>,
+      link: "https://maps.app.goo.gl/LjvpmNbS5qAAc91Q7",
     },
 
 
@@ -146,68 +147,68 @@ export default function Home() {
       {/* hero section */}
       <div className=" bg-[url('/assets/respo_bg.webp')] md:bg-[url('/assets/background.webp')] 3xl:bg-[url('/assets/bg.webp')]
                        bg-cover bg-no-repeat bg-top md:bg-position-[center_top] lg:bg-center w-full overflow-hidden relative">
-        
+
         <RoseHeroTemp />
 
-        <div className="pt-40 md:pt-88 lg:pt-160 3xl:pt-200 relative z-10">
+        <div className="pt-35 md:pt-88 lg:pt-150 3xl:pt-200 relative z-10">
           <h2 className="text-[#AE633A] text-center leading-tight text-2xl md:text-5xl lg:text-[80px] pb-120
                           md:pb-350 lg:pb-470 3xl:pb-550 flex flex-col items-center gap-y-0 lg:gap-y-5">
 
-            <span className="parisienne-regular">Harpreet</span>
+            <span className="font-playfair-display italic">Sargun Singh Kamboj </span>
 
-            <span className="jacques-francois text-base md:text-2xl lg:text-[38px] tracking-widest font-cormorant">WEDS</span>
+            <span className="font-playfair-display text-base md:text-2xl lg:text-[38px] tracking-widest font-cormorant italic">WEDS</span>
 
-            <span className="parisienne-regular">Ritika</span>
+            <span className="font-playfair-display italic">Kopal Kaur Ajmani</span>
 
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0 lg:pt-50 pt-0">
-            <Image
-              src="/assets/shabd.webp"
-              alt="idol"  width={100} height={100}
-              className="w-13 h-8 md:w-26 md:h-14 lg:w-38 lg:h-22 object-cover"/>
-            <Image
-              src="/assets/vachan.webp"
-              alt="idol"  width={100} height={100}
-              className="w-20 h-15 md:w-40 md:h-30 lg:w-59 lg:h-45 object-cover"/>
+             <h2 className="text-[#15528A] text-[12px] md:text-xl lg:text-2xl md:pt-8 font-playfair-display">
+              ਸਚੁ ਪਿਆਰਾ ਤਬ ਜਾਨੀਐ <br/> ਜਾ ਗੁਰੂ ਸਬਦੁ ਵਿਚਾਰਿ ॥
+            </h2>
 
-            <h2 className="text-[#15528A] text-sm md:text-xl lg:text-3xl md:pt-8 jacques-francois">
-              With the heavenly blessings of <br /> Our late grandparents, <br /> Sdn. Gurmeet Kapoor and Sd. Maninder Singh.
+            <Image
+              src="/assets/khanda.png"
+              alt="idol" width={100} height={100}
+              className="w-20 h-25 md:w-40 md:h-40 lg:w-40 lg:h-42 object-cover" />
+
+            <h2 className="text-[#15528A] text-sm md:text-xl lg:text-3xl md:pt-8 font-playfair-display">
+              With the blessings of Waheguru
             </h2>
 
             <hr className="w-16 lg:w-24 border-[#15528A] my-2 md:my-4" />
-            <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] jacques-francois">
-              The Kapoor Family
+            <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display">
+              Kamboj brothers
             </h2>
           </div>
 
           <div className="mt-8 text-center">
-            <h2 className="text-[#15528A] jacques-francois text-3xl md:text-5xl lg:text-6xl leading-tight lg:tracking-wide tracking-wider">
+            <h2 className="text-[#15528A] font-playfair-display text-3xl md:text-5xl lg:text-6xl leading-tight lg:tracking-wide tracking-wider">
               INVITES
             </h2>
 
-            <p className="text-[#15528A] jacques-francois text-sm md:text-xl lg:text-3xl mt-6">
+            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-6">
               you to join us in the wedding celebrations of
             </p>
 
-            <h2 className="text-[#15528A] jacques-francois text-center mt-14 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
-              HARPREET
+            <h2 className="text-[#15528A] font-playfair-display text-center mt-14 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
+              Sargun Singh Kamboj
             </h2>
 
-            <p className="text-[#15528A] jacques-francois text-sm md:text-xl lg:text-3xl mt-4">
-              S/O <br /> Dharmender Singh and Jaya Kaur
+            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
+              S/O <br /> Gurjeet Kaur Kamboj and Sardar Rishiraman Singh Kamboj
             </p>
 
-            <h2 className="text-[#15528A] jacques-francois text-center mt-4 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
-              <span className="text-[#15528A] jacques-francois text-center lg:mt-10 mt-0 text-4xl md:text-6xl lg:text-[100px] leading-tight">
-                & </span>   <br /> RITIKA
+            <h2 className="text-[#15528A] font-playfair-display text-center mt-4 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
+              <span className="text-[#15528A] font-playfair-display text-center lg:mt-10 mt-0 text-4xl md:text-6xl lg:text-[100px] leading-tight">
+                & </span>   <br /> Kopal Kaur Ajmani
             </h2>
 
-            <p className="text-[#15528A] jacques-francois text-sm md:text-xl lg:text-3xl mt-4">
-              D/O <br /> Manak Kapoor and Rani Kapoor
+            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
+              D/O <br /> Sardarni Ranu Ajmani and Sardar Narendra Singh Ajmani
             </p>
 
-            <p className="text-[#15528A] jacques-francois text-sm md:text-xl lg:text-3xl mt-8">
+            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-8">
               On the following events
             </p>
           </div>
@@ -218,19 +219,19 @@ export default function Home() {
                 <div key={i} className="flex flex-col items-center text-center">
                   <img
                     src={event.image}
-                    className="w-75 md:w-76 lg:w-80 3xl:w-100 h-auto"/>
+                    className="w-75 md:w-76 lg:w-80 3xl:w-100 h-auto" />
 
-                  <h2 className="text-[#15528A] jacques-francois text-3xl md:text-2xl lg:text-[42px] mt-4">
+                  <h2 className="text-[#15528A] font-playfair-display text-3xl md:text-2xl lg:text-[42px] mt-4">
                     {event.title_ceremony}
                   </h2>
 
-                  <p className="text-[#15528A] jacques-francois text-sm md:text-base mt-2">
+                  <p className="text-[#15528A] font-playfair-display text-sm md:text-base mt-2">
                     <span className="text-sm md:text-base lg:text-xl">{event.venue_address}</span> <br />
                   </p>
 
                   <a
                     href={event.link}
-                    className="text-[#15528A] underline md:text-sm text-lg mt-2 jacques-francois"
+                    className="text-[#15528A] underline md:text-sm text-[12px] mt-2 font-playfair-display"
                     target="_blank">
                     See the route
                   </a>
@@ -244,43 +245,37 @@ export default function Home() {
           <div className="relative flex flex-col items-center pt-30 lg:pt-50 3xl:pt-90 3xl:gap-60">
             {/* Center Text */}
             <div className="absolute flex flex-col justify-center items-center text-center md:mb-0 lg:mb-0 md:top-50 lg:top-84 3xl:top-152">
-              <p className="font-Cormorant font-semibold text-lg md:text-2xl lg:text-[38px] text-[#0064BF]">
-                MEET THE
+              <p className="font-parisienne-regular font-medium text-2xl md:text-2xl lg:text-[70px] text-[#0064BF]">
+                With <br />Love From Us
               </p>
 
-              <h2 className="text-6xl md:text-7xl lg:text-[130px] text-center text-[#6CB9FF] lg:pt-12 font-cormorant-upright lg:leading-18 md:leading-8 leading-6 pt-6">
-                <span className="text-[#15528A] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#15528A]">Groom</span>
-              </h2>
+              <p className="text-[#15528A] font-eb-garamond text-sm md:text-xl lg:text-3xl mt-4 lg:px-150 px-22">
+                Thank you for being part of our journey.
+                Your presence makes this celebration truly
+                meaningful, and we look forward to sharing
+                these cherished moments with you.
+              </p>
             </div>
             <Image
               src="/assets/couple.webp"
               alt="couple" width={900} height={1200}
-              className="w-108 h-104 md:w-205 md:h-198 lg:w-393 lg:h-374 3xl:w-480 3xl:h-463 object-cover"/>
+              className="w-108 h-104 md:w-205 md:h-198 lg:w-440 lg:h-374 3xl:w-480 3xl:h-463 object-cover" />
           </div>
-          
+
         </div>
       </div>
 
       <CoupleMessage />
 
       <div className="bg-[url('/assets/respo_three.webp')] md:bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
-        <div className="h-253 md:h-179 lg:h-330 3xl:h-421 flex flex-col items-center relative">
-          <img src="/assets/logo.webp" alt="logo" width={250} height={300} className="absolute top-50 w-20 h-24 md:top-41 md:w-31 md:h-35 lg:top-84 lg:w-46 lg:h-52 3xl:top-118" />
+        <div className="h-253 md:h-179 lg:h-380 3xl:h-421 flex flex-col items-center relative">
+          <img src="/assets/logo_n.png" alt="logo" width={250} height={300} className="absolute top-50 w-28 h-28 md:top-41 md:w-31 md:h-35 lg:top-84 3xl:w-46 lg:w-52 lg:h-48 3xl:top-118 lg:ml-40 3xl:ml-0" />
+        
+        
         </div>
       </div>
 
       <MarriageCountdown />
-
-      {/* <div className="fixed top-5 left-5 z-50">
-        <a href="https://invitearc.com/">
-          <button className="flex items-center gap-3 border-white border-2 bg-white/0 backdrop-blur text-white px-6 py-3 rounded-full shadow-lg cursor-pointer">
-            <span className="text-3xl leading-none">←</span>
-            <span className="text-[16px] font-semibold">
-              Exit Preview
-            </span>
-          </button>
-        </a>
-      </div> */}
     </>
   );
 }

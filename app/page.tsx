@@ -250,7 +250,7 @@ export default function Home() {
                 With <br />Love From Us
               </p>
 
-              <p className="text-[#15528A] font-eb-garamond text-sm md:text-xl lg:text-3xl mt-4 lg:px-150 px-20">
+              <p className="text-[#15528A] font-eb-garamond text-sm md:text-xl lg:text-3xl mt-4 lg:px-150 px-25 md:px-60">
                 Thank you for being part of our journey.
                 Your presence makes this celebration truly
                 meaningful, and we look forward to sharing

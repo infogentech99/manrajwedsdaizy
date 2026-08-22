@@ -43,16 +43,23 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 export default function Home() {
   const events = [
     {
-      title_ceremony: "Haldi and Mehndi",
-      image: "/assets/haldi_amul.png",
+      title_ceremony: "Haldi, Mehndi and Jago",
+      image: "/assets/jago_amul.png",
       venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Govind Farm) <br /> 11:00 am Onwards</>,
       link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
     },
 
+    // {
+    //   title_ceremony: "Jago",
+    //   image: "/assets/jago_amul.png",
+    //   venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Govind Farm) <br /> 7:00 pm Onwards</>,
+    //   link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
+    // },
+
     {
-      title_ceremony: "Jago",
-      image: "/assets/jago_amul.png",
-      venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Govind Farm) <br /> 7:00 pm Onwards</>,
+      title_ceremony: "Shagan",
+      image: "/assets/sagan_amul.png",
+      venue_address: <>Friday, November 27th 2026 <br />  At our residence (Govind Farm) <br /> 11:00 am Onwards</>,
       link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
     },
 
@@ -178,7 +185,7 @@ export default function Home() {
 
             <hr className="w-16 lg:w-24 border-[#15528A] my-2 md:my-4" />
             <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display">
-              Kamboj brothers
+              Sardarni Surinder Kaur Kamboj
             </h2>
           </div>
 
@@ -196,7 +203,7 @@ export default function Home() {
             </h2>
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
-              S/O <br /> Gurjeet Kaur Kamboj and Sardar Rishiraman Singh Kamboj
+              S/O <br /> Sardarni Gurjeet Kaur Kamboj and Sardar Rishiraman Singh Kamboj
             </p>
 
             <h2 className="text-[#15528A] font-playfair-display text-center mt-4 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">

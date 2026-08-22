@@ -150,8 +150,8 @@ export default function Home() {
 
         <RoseHeroTemp />
 
-        <div className="pt-35 md:pt-88 lg:pt-150 3xl:pt-200 relative z-10">
-          <h2 className="text-[#AE633A] text-center leading-tight text-2xl md:text-5xl lg:text-[80px] pb-120
+        <div className="pt-38 md:pt-88 lg:pt-150 3xl:pt-200 relative z-10">
+          <h2 className="text-[#AE633A] text-center leading-tight text-xl md:text-5xl lg:text-[80px] pb-120
                           md:pb-350 lg:pb-470 3xl:pb-550 flex flex-col items-center gap-y-0 lg:gap-y-5">
 
             <span className="font-playfair-display italic">Sargun Singh Kamboj </span>

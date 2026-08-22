@@ -268,13 +268,29 @@ export default function Home() {
 
       <CoupleMessage />
 
-      <div className="bg-[url('/assets/respo_three.webp')] md:bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
+      {/* <div className="bg-[url('/assets/respo_three.webp')] md:bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
         <div className="h-253 md:h-179 lg:h-380 3xl:h-421 flex flex-col items-center relative">
           <img src="/assets/logo_n.png" alt="logo" width={250} height={300} className="absolute top-50 w-28 h-28 md:top-41 md:w-31 md:h-35 lg:top-84 3xl:w-46 lg:w-52 lg:h-48 3xl:top-118 lg:ml-40 3xl:ml-0" />
         
         
         </div>
+      </div> */}
+
+
+        <div className="hidden md:block bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat bg-center">
+        <div className="lg:h-330 md:h-180 flex pt-80 justify-center">
+          <img src="/assets/logo_n.png" alt="logo" className="w-32 h-48 md:w-40 lg:w-60" />
+        </div>
       </div>
+
+
+      {/* mobile visible section */}
+      <div className="md:hidden bg-[url('/assets/respo_three.webp')] bg-cover bg-no-repeat">
+        <div className="h-230 flex  justify-center pt-50">
+          <img src="/assets/logo_n.png" alt="logo" className="w-40 h-36" />
+        </div>
+      </div>
+
 
       <MarriageCountdown />
     </>

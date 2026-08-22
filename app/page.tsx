@@ -66,7 +66,7 @@ export default function Home() {
     {
       title_ceremony: "Anand Karaj",
       image: "/assets/anand_karaj.webp",
-      venue_address: <>Saturday, November 28th 2026 <br /> GURUDWARA SINGH SABHA, BILHARI <br /> 9:30 pm Onwards</>,
+      venue_address: <>Saturday, November 28th 2026 <br /> GURUDWARA SINGH SABHA, BILHARI <br /> 11:30 am Onwards</>,
       link: "https://maps.app.goo.gl/J8xLdsUC1PTdgQrN9",
     },
 

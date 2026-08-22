@@ -168,7 +168,7 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/assets/khanda.png"
+              src="/assets/khanda.webp"
               alt="idol" width={100} height={100}
               className="w-20 h-25 md:w-40 md:h-40 lg:w-40 lg:h-42 object-cover" />
 
@@ -259,7 +259,7 @@ export default function Home() {
             <Image
               src="/assets/couple.webp"
               alt="couple" width={900} height={1200}
-              className="w-108 h-104 md:w-205 md:h-198 lg:w-440 lg:h-374 3xl:w-480 3xl:h-463 object-cover" />
+              className="w-108 h-104 md:w-205 md:h-198 lg:w-440 lg:h-374 3xl:w-480 3xl:h-463 object-cover"/>
           </div>
 
         </div>

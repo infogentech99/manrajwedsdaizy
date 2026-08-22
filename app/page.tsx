@@ -252,7 +252,7 @@ export default function Home() {
           <div className="relative flex flex-col items-center pt-30 lg:pt-50 3xl:pt-90 3xl:gap-60">
             {/* Center Text */}
             {/* <div className="absolute flex flex-col justify-center text-center md:mb-0 lg:mb-0 md:top-50 lg:top-84 3xl:top-152"> */}
-            <div className="absolute left-0 right-0 w-full flex flex-col items-center justify-center text-center md:mb-0 lg:mb-0 md:top-50 lg:top-84 3xl:top-152">
+            <div className="absolute left-0 right-0 w-full flex flex-col items-center justify-center text-center md:mb-0 lg:mb-0 md:top-50 lg:top-84 3xl:top-152 -mt-10">
               <p className="font-parisienne-regular font-medium text-2xl md:text-2xl lg:text-[70px] text-[#0064BF]">
                 With <br />Love From Us
               </p>

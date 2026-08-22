@@ -114,7 +114,10 @@ export default function CoupleMessage() {
 
         <div className="flex justify-center md:justify-end md:mt-2 mt-100 lg:mt-295 3xl:mt-320 md:pr-5 lg:pr-10 3xl:pr-30">
           <div className="">
-            <h2 className="font-cormorant-upright font-semibold text-center text-4xl md:text-4xl lg:text-[64px] text-[#15528A] pt-10 md:pt-90 lg:pt-102 3xl:pt-150 md:leading-8 lg:leading-12 leading-8 px-10 md:px-0">
+          <h2 className="font-cormorant-upright font-semibold text-center text-2xl md:text-2xl lg:text-[30px] text-[#15528A] pt-10 md:pt-190 lg:pt-102 3xl:pt-150 md:leading-8 lg:leading-14 leading-8 px-10 md:px-0">
+              #WhenSargunMetKopal
+            </h2>
+            <h2 className="font-cormorant-upright font-semibold text-center text-4xl md:text-4xl lg:text-[64px] text-[#15528A] pt-4 md:pt-4 lg:pt-4 3xl:pt-10 md:leading-8 lg:leading-14 leading-8 px-10 md:px-0">
               Looking forward to <br className="hidden md:block" /> seeing you
             </h2>
             <div className="flex flex-col-1 md:gap-0 gap-0 lg:gap-0 justify-center items-center md:not-first:mt-4">

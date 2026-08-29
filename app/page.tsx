@@ -51,7 +51,7 @@ export default function Home() {
      {
       title_ceremony: "Cocktail",
        image: "/assets/cocktail_n.png",
-      venue_address: <>Saturday, October 28th 2026 <br /> Farm house No. 5, Khasra No.1508, <br/> Bhatti mines, Asola, New Delhi, Delhi 110074 <br /> 9:00 PM Onwards</>,
+      venue_address: <>Wednesday, October 28th 2026 <br /> Farm house No. 5, Khasra No.1508, <br/> Bhatti mines, Asola, New Delhi, Delhi 110074 <br /> 9:00 PM Onwards</>,
       link: "https://maps.app.goo.gl/bEHnAZNQU9e7tqZk6",
     },
 

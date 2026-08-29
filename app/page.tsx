@@ -42,55 +42,27 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 
 export default function Home() {
   const events = [
-    {
-      title_ceremony: "Haldi, Mehndi and Jago",
-      image: "/assets/jago_amul.png",
-      venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Govind Farm) <br /> 11:00 am Onwards</>,
-      link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
-    },
+    
 
-    // {
-    //   title_ceremony: "Jago",
-    //   image: "/assets/jago_amul.png",
-    //   venue_address: <>Thursday, November 26th 2026 <br />  At our residence (Govind Farm) <br /> 7:00 pm Onwards</>,
-    //   link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
-    // },
+   
 
-    {
-      title_ceremony: "Shagan",
-      image: "/assets/sagan_amul.png",
-      venue_address: <>Friday, November 27th 2026 <br />  At our residence (Govind Farm) <br /> 11:00 am Onwards</>,
-      link: "https://maps.app.goo.gl/aCyLozjyV2UkoXVL7?g_st=ac",
-    },
 
-    {
-      title_ceremony: "Ring ceremony",
-      image: "/assets/ring_amul.png",
-      venue_address: <>Friday, November 27th 2026 <br /> Hotel Pasricha - Banquets & Lawns <br /> 8:00 pm Onwards</>,
-      link: "https://maps.app.goo.gl/8V9hVAr9Tz9qoQey7",
+    
+     {
+      title_ceremony: "Cocktail",
+       image: "/assets/cocktail_n.png",
+      venue_address: <>Saturday, October 28th 2026 <br /> Farm house No. 5, Khasra No.1508, <br/> Bhatti mines, Asola, New Delhi, Delhi 110074 <br /> 9:00 PM Onwards</>,
+      link: "https://maps.app.goo.gl/bEHnAZNQU9e7tqZk6",
     },
 
     {
       title_ceremony: "Anand Karaj",
-      image: "/assets/anand_karaj.webp",
-      venue_address: <>Saturday, November 28th 2026 <br /> GURUDWARA SINGH SABHA, BILHARI <br /> 11:30 am Onwards</>,
+      image: "/assets/anand.png",
+      venue_address: <>Friday, October 30th 2026 <br /> GURUDWARA SINGH SABHA, BILHARI <br /> 11 AM Onwards</>,
       link: "https://maps.app.goo.gl/J8xLdsUC1PTdgQrN9",
     },
 
-     {
-      title_ceremony: "Wedding ",
-       image: "/assets/anand_amul.png",
-      venue_address: <>Saturday, November 28th 2026 <br /> Tulip Hall, Hotel Pasricha <br /> 2:00 pm Onwards</>,
-      link: "https://maps.app.goo.gl/8V9hVAr9Tz9qoQey7",
-    },
 
-
-    {
-      title_ceremony: "Reception",
-      image: "/assets/reception_amul.png",
-      venue_address: <>Sunday, November 29th 2026 <br />  Hotel Vijan Mahal <br /> 7:00 pm Onwards</>,
-      link: "https://maps.app.goo.gl/LjvpmNbS5qAAc91Q7",
-    },
 
 
   ];
@@ -161,11 +133,11 @@ export default function Home() {
           <h2 className="text-[#AE633A] text-center leading-tight text-xl md:text-5xl lg:text-[80px] pb-120
                           md:pb-350 lg:pb-470 3xl:pb-550 flex flex-col items-center gap-y-0 lg:gap-y-5">
 
-            <span className="font-playfair-display italic">Sargun Singh Kamboj </span>
+            <span className="font-playfair-display italic">Manraj Singh Somal</span>
 
             <span className="font-playfair-display text-base md:text-2xl lg:text-[38px] tracking-widest font-cormorant italic">WEDS</span>
 
-            <span className="font-playfair-display italic">Kopal Kaur Ajmani</span>
+            <span className="font-playfair-display italic">Daizy Singh</span>
 
           </h2>
 
@@ -175,9 +147,9 @@ export default function Home() {
             </h2>
 
             <Image
-              src="/assets/khanda.webp"
+              src="/assets/vachan.webp"
               alt="idol" width={100} height={100}
-              className="w-20 h-25 md:w-40 md:h-40 lg:w-40 lg:h-42 object-cover" />
+              className="w-20 h-15.5 md:w-40 md:h-40 lg:w-40 lg:h-31 object-cover" />
 
             <h2 className="text-[#15528A] text-sm md:text-xl lg:text-3xl md:pt-8 font-playfair-display">
               With the blessings of Waheguru
@@ -185,7 +157,7 @@ export default function Home() {
 
             <hr className="w-16 lg:w-24 border-[#15528A] my-2 md:my-4" />
             <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display">
-              Sardarni Surinder Kaur Kamboj
+              Singh Family
             </h2>
           </div>
 
@@ -199,20 +171,20 @@ export default function Home() {
             </p>
 
             <h2 className="text-[#15528A] font-playfair-display text-center mt-14 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
-              Sargun Singh Kamboj
+              Manraj Singh Somal
             </h2>
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
-              S/O <br /> Sardarni Gurjeet Kaur Kamboj and Sardar Rishiraman Singh Kamboj
+              Son of Gurnam Singh Somal & Jaswinder Kaur Somal
             </p>
 
             <h2 className="text-[#15528A] font-playfair-display text-center mt-4 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
               <span className="text-[#15528A] font-playfair-display text-center lg:mt-10 mt-0 text-4xl md:text-6xl lg:text-[100px] leading-tight">
-                & </span>   <br /> Kopal Kaur Ajmani
+                & </span>   <br /> Daizy Singh
             </h2>
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
-              D/O <br /> Sardarni Ranu Ajmani and Sardar Narendra Singh Ajmani
+             Daughter of Tajish Kaur & Late Jagmohan Singh
             </p>
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-8">
@@ -221,7 +193,7 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-20 lg:mt-40">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-32 3xl:gap-50">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 lg:gap-32 3xl:gap-50">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
                   <img
@@ -286,7 +258,7 @@ export default function Home() {
 
         <div className="hidden md:block bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat bg-center">
         <div className="lg:h-330 md:h-180 flex pt-80 justify-center">
-          <img src="/assets/logo_n.png" alt="logo" className="w-32 h-48 md:w-40 lg:w-60" />
+          {/* <img src="/assets/logo_n.png" alt="logo" className="w-32 h-48 md:w-40 lg:w-60" /> */}
         </div>
       </div>
 
@@ -294,7 +266,7 @@ export default function Home() {
       {/* mobile visible section */}
       <div className="md:hidden bg-[url('/assets/respo_three.webp')] bg-cover bg-no-repeat">
         <div className="h-230 flex  justify-center pt-50">
-          <img src="/assets/logo_n.png" alt="logo" className="w-40 h-36" />
+          {/* <img src="/assets/logo_n.png" alt="logo" className="w-40 h-36" /> */}
         </div>
       </div>
 

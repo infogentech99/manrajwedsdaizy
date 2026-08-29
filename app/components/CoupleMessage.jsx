@@ -1,11 +1,11 @@
 export default function CoupleMessage() {
   return (
-    <div className="bg-[url('/assets/respo_bg_two5.png')] md:bg-[url('/assets/bg_two4.png')] bg-cover bg-no-repeat">
-      <div className="h-360 md:h-585 lg:h-800 3xl:h-950">
-        <h1 className="text-2xl md:text-2xl lg:text-[36px] text-center text-[#15528A] lg:pt-40 pt-20 jacques-francois">
+    <div className="bg-[url('/assets/respo_bg_two5n.png')] md:bg-[url('/assets/bg_two4n.png')] bg-cover bg-no-repeat">
+      <div className="h-220 md:h-585 lg:h-800 3xl:h-570">
+        {/* <h1 className="text-2xl md:text-2xl lg:text-[36px] text-center text-[#15528A] lg:pt-40 pt-20 jacques-francois">
           INTRODUCING
-        </h1>
-        <h2 className="text-3xl md:text-xl lg:text-[90px] text-center text-[#15528A] px-3 md:px-17 lg:px-51 3xl:px-103 mt-12 lg:mt-16 font-parisienne-regular leading-5 md:leading-tight">
+        </h1> */}
+        {/* <h2 className="text-3xl md:text-xl lg:text-[90px] text-center text-[#15528A] px-3 md:px-17 lg:px-51 3xl:px-103 mt-12 lg:mt-16 font-parisienne-regular leading-5 md:leading-tight">
           The Couple
         </h2>
         <div className="relative flex flex-col items-center mt-12 md:mt-12 lg:mt-20 3xl:mt-30">
@@ -50,86 +50,53 @@ export default function CoupleMessage() {
             className="absolute top-60 right-38 w-40 h-30 md:right-76 md:top-97 md:w-70 
                                md:h-50 lg:right-142 lg:top-181 lg:w-120 lg:h-91 3xl:top-212 3xl:right-170 3xl:w-160 3xl:h-111 z-20"
           />
-        </div>
+        </div> */}
 
-        {/* <h1 className="text-5xl md:text-6xl lg:text-[90px] text-center text-[#15528A] pt-86 md:pt-130 lg:pt-250 3xl:pt-320 leading-tight font-parisienne-regular">
-          A Guide for <br />
-          Guests
-        </h1>
+        
 
-        <div className="flex justify-center mt-20 pb-24 md:pb-0">
-          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-10 md:gap-14 lg:gap-50 3xl:gap-60">
-            <div className="flex flex-col items-center justify-center text-center">
-              <img
-                src="/assets/weather.webp"
-                alt="weather"
-                className="w-31 h-25 md:w-24 md:h-22 lg:w-28 lg:h-26"
-              />
-              <h2 className="text-[40px] md:text-3xl lg:text-[42px] text-[#15528A] mt-1 jacques-francois">
-                Weather
-              </h2>
-              <p className="text-[14px] lg:text-[15px] text-[#15528A] mt-1 jacques-francois md:leading-5">
-                It will be mostly cloudy with <br />
-                temperature reaching up <br />
-                to 22 degrees at the venue
-              </p>
-            </div>
-            <div className="flex flex-col items-center justify-center text-center">
-              <img
-                src="/assets/staff.webp"
-                alt="drive"
-                className="w-28 h-35 md:w-17 md:h-23 lg:w-21 lg:h-27"
-              />
-              <h2 className="text-[40px] md:text-3xl lg:text-[42px] text-[#15528A] mt-1 jacques-francois">
-                Staff
-              </h2>
-              <p className="text-[14px] lg:text-[15px] md:leading-5 text-[#15528A] mt-1 jacques-francois">
-                We recommend the nearby <br />
-                lodge called VEGA near the <br />
-                venue for the staff members
-              </p>
-            </div>
-            <div className="flex flex-col items-center justify-center text-center">
-              <img
-                src="/assets/parking.webp"
-                alt="car"
-                className="w-31 h-25 md:w-26 md:h-23 lg:w-30 lg:h-27"
-              />
-              <h2 className="text-[40px] md:text-3xl lg:text-[42px] text-[#15528A] mt-1 jacques-francois">
-                Parking
-              </h2>
-              <p className="text-[14px] lg:text-[15px] md:leading-5 text-[#15528A] mt-1 jacques-francois">
-                Valet parking for all our <br />
-                guests will be available <br />
-                at the venue
-              </p>
-            </div>
-          </div>
-        </div>
-        <h2 className="text-xs md:text-xl lg:text-[26px] text-center text-[#15528A] px-4 md:px-20 lg:px-56 3xl:px-107 pt-10 md:pt-6 lg:pt-16 3xl:pt-16 mt-2 lg:mt-4 lg:leading-tight jacques-francois lg:px-100">
-          To help you feel at ease and enjoy every moment of the celebrations,
-          we’ve gathered a few thoughtful details we’d love for you to know
-          before the big day.
-        </h2> */}
-
-        <div className="flex justify-center md:justify-end md:mt-2 mt-100 lg:mt-295 3xl:mt-320 md:pr-5 lg:pr-10 3xl:pr-30">
-          <div className="">
-          <h2 className="font-cormorant-upright font-semibold text-center text-2xl md:text-2xl lg:text-[30px] text-[#15528A] pt-10 md:pt-190 lg:pt-102 3xl:pt-150 md:leading-8 lg:leading-14 leading-8 px-10 md:px-0">
+        <div className="flex justify-center md:justify-end md:mt-2 mt-0 lg:mt-295 3xl:mt-0 md:pr-5 lg:pr-10 3xl:pr-30">
+          <div className="3xl:mt-125 mt-15">
+          {/* <h2 className="font-cormorant-upright font-semibold text-center text-2xl md:text-2xl lg:text-[30px] text-[#15528A] pt-10 md:pt-190 lg:pt-102 3xl:pt-150 md:leading-8 lg:leading-14 leading-8 px-10 md:px-0">
               #WhenSargunMetKopal
-            </h2>
-            <h2 className="font-cormorant-upright font-semibold text-center text-4xl md:text-4xl lg:text-[64px] text-[#15528A] pt-4 md:pt-4 lg:pt-4 3xl:pt-10 md:leading-8 lg:leading-14 leading-8 px-10 md:px-0">
+            </h2> */}
+            <h2 className="font-cormorant-upright font-semibold text-center text-4xl md:text-4xl lg:text-[64px] text-[#15528A] pt-10 md:pt-190 lg:pt-102 3xl:pt-150 md:leading-8 lg:leading-14 leading-8 px-10 md:px-0">
               Looking forward to <br className="hidden md:block" /> seeing you
             </h2>
-            <div className="flex flex-col-1 md:gap-0 gap-0 lg:gap-0 justify-center items-center md:not-first:mt-4">
-             <a href="https://wa.me/9179533483" target="_blank" rel="noopener noreferrer">
+            <div className="flex flex-col-1 md:gap-0 gap-0 lg:gap-0 justify-center items-center md:not-first:mt-4 mt-2">
+             <a href="https://wa.me/8826663513" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/assets/whatsapp.webp"
                   alt="icon"
-                  className="h-8 w-8 md:w-8 md:h-8 lg:w-[42px] lg:h-[42px] 3xl:w-20 3xl:h-20"
+                  className="h-8 w-8 md:w-8 md:h-8 lg:w-[42px] lg:h-[42px] 3xl:w-16 3xl:h-16"
                 />
               </a>
               <h2 className="font-cormorant font-normal text-xs md:text-sm lg:text-[22px] text-[#15528A]">
-                Click the Link to RSVP
+                GINNI SINGH
+              </h2>
+            </div>
+             <div className="flex flex-col-1 md:gap-0 gap-0 lg:gap-0 justify-center items-center  md:ml-10 ml-5">
+             <a href="https://wa.me/9990603501" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/assets/whatsapp.webp"
+                  alt="icon"
+                  className="h-8 w-8 md:w-8 md:h-8 lg:w-[42px] lg:h-[42px] 3xl:w-16 3xl:h-16"
+                />
+              </a>
+              <h2 className="font-cormorant font-normal text-xs md:text-sm lg:text-[22px] text-[#15528A]">
+                MANISHA SINGH
+              </h2>
+            </div>
+
+              <div className="flex flex-col-1 md:gap-0 gap-0 lg:gap-0 justify-center items-center  md:ml-5 ml-2">
+             <a href="https://wa.me/9863399633" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/assets/whatsapp.webp"
+                  alt="icon"
+                  className="h-8 w-8 md:w-8 md:h-8 lg:w-[42px] lg:h-[42px] 3xl:w-16 3xl:h-16"
+                />
+              </a>
+              <h2 className="font-cormorant font-normal text-xs md:text-sm lg:text-[22px] text-[#15528A]">
+                NAMHE SINGH
               </h2>
             </div>
           </div>

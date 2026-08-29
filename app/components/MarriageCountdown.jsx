@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 export default function MarriageCountdown() {
-    const TARGET_DATE = new Date("2026-11-28").getTime();
+    const TARGET_DATE = new Date("2026-10-30").getTime();
   const [timeLeft, setTimeLeft] = useState({
   days: 14,
   hours: 12,

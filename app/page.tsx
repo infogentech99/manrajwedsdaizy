@@ -42,23 +42,25 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 
 export default function Home() {
   const events = [
-    
-
-   
 
 
-    
-     {
+    {
       title_ceremony: "Cocktail",
-       image: "/assets/cocktail_n.png",
-      venue_address: <>Wednesday, October 28th 2026 <br /> Farm house No. 5, Khasra No.1508, <br/> Bhatti mines, Asola, New Delhi, Delhi 110074 <br /> 9:00 PM Onwards</>,
+      subtitle: "An evening of cocktails, music & celebration",
+      image: "/assets/cocktail_n.png",
+      venue_date: "Wednesday, 28 October 2026 ",
+      venue_time: " 9:00 PM Onwards",
+      venue_address: <>Farm house No. 5, Khasra No.1508, <br /> Bhatti mines, Asola, New Delhi<br /></>,
       link: "https://maps.app.goo.gl/bEHnAZNQU9e7tqZk6",
     },
 
     {
       title_ceremony: "Anand Karaj",
+      subtitle: "The Sacred union",
       image: "/assets/anand.png",
-      venue_address: <>Friday, October 30th 2026 <br /> GURUDWARA SINGH SABHA, BILHARI <br /> 11 AM Onwards</>,
+      venue_date: "Friday, 30th October 2026 ",
+      venue_time: "11 AM Onwards",
+      venue_address: <>Gurudwara Singh Sabha, Bilhari <br /> </>,
       link: "https://maps.app.goo.gl/J8xLdsUC1PTdgQrN9",
     },
 
@@ -135,15 +137,15 @@ export default function Home() {
 
             <span className="font-playfair-display italic">Manraj Singh Somal</span>
 
-            <span className="font-playfair-display text-base md:text-2xl lg:text-[38px] tracking-widest font-cormorant italic">WEDS</span>
+            <span className="font-playfair-display text-base md:text-2xl lg:text-[38px] tracking-widest font-cormorant italic">Weds</span>
 
             <span className="font-playfair-display italic">Daizy Singh</span>
 
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0 lg:pt-50 pt-0">
-             <h2 className="text-[#15528A] text-[12px] md:text-xl lg:text-2xl md:pt-8 font-playfair-display">
-              ਸਚੁ ਪਿਆਰਾ ਤਬ ਜਾਨੀਐ <br/> ਜਾ ਗੁਰੂ ਸਬਦੁ ਵਿਚਾਰਿ ॥
+            <h2 className="text-[#15528A] text-[12px] md:text-xl lg:text-2xl md:pt-8 font-playfair-display">
+              ਸਚੁ ਪਿਆਰਾ ਤਬ ਜਾਨੀਐ <br /> ਜਾ ਗੁਰੂ ਸਬਦੁ ਵਿਚਾਰਿ ॥
             </h2>
 
             <Image
@@ -154,10 +156,18 @@ export default function Home() {
             <h2 className="text-[#15528A] text-sm md:text-xl lg:text-3xl md:pt-8 font-playfair-display">
               With the blessings of Waheguru
             </h2>
+            <Image
+              src="/assets/arrow.png"
+              alt="arrow"
+              width={2048}
+              height={253}
+              className="md:w-1/5 w-1/2 h-auto"
+            />
 
-            <hr className="w-16 lg:w-24 border-[#15528A] my-2 md:my-4" />
+
+            {/* <hr className="w-16 lg:w-24 border-[#15528A] my-2 md:my-4" /> */}
             <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display">
-              Singh Family
+              The Singh Family
             </h2>
           </div>
 
@@ -167,28 +177,28 @@ export default function Home() {
             </h2>
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-6">
-              you to join us in the wedding celebrations of
+              Joyfully invites you to celebrate
             </p>
 
-            <h2 className="text-[#15528A] font-playfair-display text-center mt-14 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
+            <h2 className="text-[#15528A] font-playfair-display text-center mt-14 text-4xl md:text-6xl lg:text-[100px] leading-tight font-semibold">
               Manraj Singh Somal
             </h2>
 
-            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
+            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4 italic">
               Son of Gurnam Singh Somal & Jaswinder Kaur Somal
             </p>
 
-            <h2 className="text-[#15528A] font-playfair-display text-center mt-4 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
+            <h2 className="text-[#15528A] font-playfair-display text-center mt-4 text-4xl md:text-6xl lg:text-[100px] leading-tight font-semibold">
               <span className="text-[#15528A] font-playfair-display text-center lg:mt-10 mt-0 text-4xl md:text-6xl lg:text-[100px] leading-tight">
                 & </span>   <br /> Daizy Singh
             </h2>
 
-            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4">
-             Daughter of Tajish Kaur & Late Jagmohan Singh
+            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-4 italic">
+              Daughter of Tajish Kaur & Late Jagmohan Singh
             </p>
 
-            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-8">
-              On the following events
+            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-8 font-bold">
+              THE WEDDING CELEBRATION <br /><span className="font-normal">awaiting your gracious presence</span>
             </p>
           </div>
 
@@ -198,21 +208,28 @@ export default function Home() {
                 <div key={i} className="flex flex-col items-center text-center">
                   <img
                     src={event.image}
-                    className="w-75 md:w-76 lg:w-80 3xl:w-100 h-auto" />
+                    className="w-75 md:w-76 lg:w-80 3xl:w-100 h-auto rounded-2xl" />
 
                   <h2 className="text-[#15528A] font-playfair-display text-3xl md:text-2xl lg:text-[42px] mt-4">
                     {event.title_ceremony}
                   </h2>
 
+                  <h2 className="text-[#15528A] font-playfair-display text-[16x] md:text-xl lg:text-[22px]">
+                    {event.subtitle}
+                  </h2>
+
                   <p className="text-[#15528A] font-playfair-display text-sm md:text-base mt-2">
-                    <span className="text-sm md:text-base lg:text-xl">{event.venue_address}</span> <br />
+                    <span className="text-sm md:text-base lg:text-xl font-semibold">{event.venue_date}</span> <br />
+                    <span className="text-sm md:text-base lg:text-xl font-semibold">{event.venue_time}</span> <br />
+                    <span className="text-sm md:text-base lg:text-xl">{event.venue_address}</span>
                   </p>
+
 
                   <a
                     href={event.link}
-                    className="text-[#15528A] underline md:text-sm text-[12px] mt-2 font-playfair-display"
+                    className="text-[#15528A] underline md:text-sm text-[12px] mt-2 font-playfair-display font-semibold"
                     target="_blank">
-                    See the route
+                    VIEW LOCATION
                   </a>
 
                 </div>
@@ -225,50 +242,26 @@ export default function Home() {
             {/* Center Text */}
             {/* <div className="absolute flex flex-col justify-center text-center md:mb-0 lg:mb-0 md:top-50 lg:top-84 3xl:top-152"> */}
             <div className="absolute left-0 right-0 w-full flex flex-col items-center justify-center text-center md:mb-0 lg:mb-0 md:top-50 lg:top-84 3xl:top-152 -mt-10">
-              <p className="font-parisienne-regular font-medium text-2xl md:text-2xl lg:text-[70px] text-[#0064BF]">
-                With <br />Love From Us
+              <p className="font-playfair-display font-semibold text-xl md:text-2xl lg:text-[40px] text-[#15528A] w-60 leading-5 md:leading-10 md:w-200">
+                As we begin this beautiful new chapter,
+                we would be honoured to have you by our side.
               </p>
 
               <p className="text-[#15528A] font-eb-garamond text-sm md:text-xl lg:text-3xl mt-4 lg:px-150 px-25 md:px-60">
-                Thank you for being part of our journey.
-                Your presence makes this celebration truly
-                meaningful, and we look forward to sharing
-                these cherished moments with you.
+                As we begin this beautiful new chapter,
+                we would be honoured to have you by our side.
               </p>
             </div>
             <Image
               src="/assets/couple.webp"
               alt="couple" width={900} height={1200}
-              className="w-108 h-104 md:w-205 md:h-198 lg:w-440 lg:h-374 3xl:w-480 3xl:h-463 object-cover"/>
+              className="w-108 h-104 md:w-205 md:h-198 lg:w-440 lg:h-374 3xl:w-480 3xl:h-463 object-cover" />
           </div>
 
         </div>
       </div>
 
       <CoupleMessage />
-
-      {/* <div className="bg-[url('/assets/respo_three.webp')] md:bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
-        <div className="h-253 md:h-179 lg:h-380 3xl:h-421 flex flex-col items-center relative">
-          <img src="/assets/logo_n.png" alt="logo" width={250} height={300} className="absolute top-50 w-28 h-28 md:top-41 md:w-31 md:h-35 lg:top-84 3xl:w-46 lg:w-52 lg:h-48 3xl:top-118 lg:ml-40 3xl:ml-0" />
-        
-        
-        </div>
-      </div> */}
-
-
-        <div className="hidden md:block bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat bg-center">
-        <div className="lg:h-330 md:h-180 flex pt-80 justify-center">
-          {/* <img src="/assets/logo_n.png" alt="logo" className="w-32 h-48 md:w-40 lg:w-60" /> */}
-        </div>
-      </div>
-
-
-      {/* mobile visible section */}
-      <div className="md:hidden bg-[url('/assets/respo_three.webp')] bg-cover bg-no-repeat">
-        <div className="h-230 flex  justify-center pt-50">
-          {/* <img src="/assets/logo_n.png" alt="logo" className="w-40 h-36" /> */}
-        </div>
-      </div>
 
 
       <MarriageCountdown />

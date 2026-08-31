@@ -1,69 +1,46 @@
 export default function CoupleMessage() {
   return (
     <div className="bg-[url('/assets/respo_bg_two5n.png')] md:bg-[url('/assets/bg_two4n.png')] bg-cover bg-no-repeat">
-      <div className="h-220 md:h-585 lg:h-800 3xl:h-570">
-        {/* <h1 className="text-2xl md:text-2xl lg:text-[36px] text-center text-[#15528A] lg:pt-40 pt-20 jacques-francois">
-          INTRODUCING
-        </h1> */}
-        {/* <h2 className="text-3xl md:text-xl lg:text-[90px] text-center text-[#15528A] px-3 md:px-17 lg:px-51 3xl:px-103 mt-12 lg:mt-16 font-parisienne-regular leading-5 md:leading-tight">
-          The Couple
-        </h2>
-        <div className="relative flex flex-col items-center mt-12 md:mt-12 lg:mt-20 3xl:mt-30">
-          <h2 className=" text-[#15528A] text-left text-xl md:text-4xl lg:text-[68px] 3xl:text-[78px] pl-44 md:pl-114 lg:pl-180 3xl:pl-240 md:mt-2 lg:mt-3 3xl:mt-5 flex flex-col justify-end ">
-            <span className="jacques-francois">Sargun</span>
-            <span className="lavishly-yours-regular opacity-50 text-[#6CB9FF] text-5xl md:text-7xl lg:text-[150px] tracking-widest -mt-6 pl-5 md:-mt-9 md:pl-10 lg:-mt-19 lg:pl-18">
-              &
-            </span>
-            <span className="jacques-francois -mt-4 md:-mt-6 lg:-mt-10">
-              Kopal
-            </span>
-          </h2>
+      <div className="h-230 md:h-585 lg:h-480 3xl:h-570">
+      
 
-          <img
-            src="/assets/one.png"
-            alt="couple"
-            className="absolute right-40 w-35 h-28 md:right-78 md:w-60 md:h-46 
-                              lg:right-143 lg:w-106 lg:h-83 3xl:right-167 3xl:w-146 3xl:h-103 z-20 cover"
-          />
-          <img
-            src="/assets/two.png"
-            alt="couple_one"
-            className="absolute top-15 left-6 w-32 h-55 md:left-21 
-                               md:top-24 md:w-54 md:h-90 lg:left-50 lg:top-45 lg:w-97 lg:h-166 3xl:left-68 3xl:top-60 3xl:w-117 3xl:h-186 z-10"
-          />
-
-          <img
-            src="/assets/three.webp"
-            alt="flowers"
-            className="absolute right-42 top-20 w-27 h-37 md:right-82 md:top-34 md:w-45 
-                               md:h-59 lg:right-150 lg:top-61 lg:w-82 lg:h-110 3xl:right-180 3xl:top-75 3xl:w-102 3xl:h-130 z-40"
-          />
-          <img
-            src="/assets/four_n.webp"
-            alt="couple"
-            className="absolute right-9 top-18 w-39 h-59 md:right-22 md:top-30 md:w-69 
-                               md:h-98 lg:right-49 lg:top-55 lg:w-118 lg:h-176 3xl:right-61 3xl:top-67 3xl:w-138 3xl:h-196 z-30"
-          />
-          <img
-            src="/assets/five.png"
-            alt="couple"
-            className="absolute top-60 right-38 w-40 h-30 md:right-76 md:top-97 md:w-70 
-                               md:h-50 lg:right-142 lg:top-181 lg:w-120 lg:h-91 3xl:top-212 3xl:right-170 3xl:w-160 3xl:h-111 z-20"
-          />
-        </div> */}
-
-        
-
-        <div className="flex justify-center md:justify-end md:mt-2 mt-0 lg:mt-295 3xl:mt-0 md:pr-5 lg:pr-10 3xl:pr-30">
+        <div className="flex justify-center md:justify-end md:pr-5 lg:pr-10 3xl:pr-30 lg:pl-240 3xl:pl-300 ">
           <div className="3xl:mt-125 mt-15">
-          {/* <h2 className="font-cormorant-upright font-semibold text-center text-2xl md:text-2xl lg:text-[30px] text-[#15528A] pt-10 md:pt-190 lg:pt-102 3xl:pt-150 md:leading-8 lg:leading-14 leading-8 px-10 md:px-0">
-              #WhenSargunMetKopal
-            </h2> */}
-            <h2 className="font-cormorant-upright font-semibold text-center text-4xl md:text-4xl lg:text-[64px] text-[#15528A] pt-10 md:pt-190 lg:pt-102 3xl:pt-150 md:leading-8 lg:leading-14 leading-8 px-10 md:px-0">
-              Looking forward to <br className="hidden md:block" /> seeing you
+            <h2 className="font-cormorant-upright font-semibold text-center text-[16px] md:text-2xl lg:text-[24px] uppercase text-[#15528A] pt-0 md:pt-190 lg:pt-202 3xl:pt-150 md:leading-8 lg:leading-14 leading-8 px-10 md:px-0">
+              We cannot Wait
             </h2>
-            <div className="flex flex-col-1 md:gap-0 gap-0 lg:gap-0 justify-center items-center md:not-first:mt-4 mt-2">
-             <a href="https://wa.me/8826663513" target="_blank" rel="noopener noreferrer">
+
+            <h2 className="font-cormorant-upright uppercase font-bold text-center text-2xl md:text-2xl lg:text-[34px] text-[#15528A] md:leading-8 lg:leading-14 leading-8 px-10 md:px-0">
+              To Celebrate With You
+            </h2>
+            <div className="flex justify-center items-center">
+              <img
+                src="/assets/arrow.png"
+                alt="arrow"
+                width={2048}
+                height={253}
+                className="md:w-1/5 lg:w-1/2 w-1/2 h-auto"
+              />
+            </div>
+            <h2 className="font-cormorant-upright font-semibold text-center text-[14px] md:text-2xl lg:text-[24px] text-[#15528A] md:leading-8 lg:leading-14 leading-4 px-10  py-3 md:px-0">
+              Your love, blessing and presence will make our celebration
+              complete
+            </h2>
+            <div className="flex justify-center items-center">
+              <img
+                src="/assets/arrow.png"
+                alt="arrow"
+                width={2048}
+                height={253}
+                className="md:w-1/5 lg:w-1/2 w-1/2 h-auto"
+              />
+            </div>
+            <div className="flex flex-col-1 md:gap-0 gap-0 lg:gap-0 justify-center items-center md:not-first:mt-4 mt-4">
+              <a
+                href="https://wa.me/8826663513"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="/assets/whatsapp.webp"
                   alt="icon"
@@ -74,8 +51,12 @@ export default function CoupleMessage() {
                 GINNI SINGH
               </h2>
             </div>
-             <div className="flex flex-col-1 md:gap-0 gap-0 lg:gap-0 justify-center items-center  md:ml-10 ml-5">
-             <a href="https://wa.me/9990603501" target="_blank" rel="noopener noreferrer">
+            <div className="flex flex-col-1 md:gap-0 gap-0 lg:gap-0 justify-center items-center  md:ml-10 ml-5">
+              <a
+                href="https://wa.me/9990603501"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="/assets/whatsapp.webp"
                   alt="icon"
@@ -87,8 +68,12 @@ export default function CoupleMessage() {
               </h2>
             </div>
 
-              <div className="flex flex-col-1 md:gap-0 gap-0 lg:gap-0 justify-center items-center  md:ml-5 ml-2">
-             <a href="https://wa.me/9863399633" target="_blank" rel="noopener noreferrer">
+            <div className="flex flex-col-1 md:gap-0 gap-0 lg:gap-0 justify-center items-center  md:ml-5 ml-2">
+              <a
+                href="https://wa.me/9863399633"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="/assets/whatsapp.webp"
                   alt="icon"

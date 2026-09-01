@@ -261,9 +261,9 @@ export default function Home() {
                   <h2 className="text-[#15528A] font-playfair-display text-[14x] md:text-xl lg:text-[18px] italic">
                     {event.subtitle}
                   </h2>
-                  <h2 className="text-[#15528A] font-playfair-display text-[14x] md:text-xl lg:text-[18px] mt-2">
+                  {/* <h2 className="text-[#15528A] font-playfair-display text-[14x] md:text-xl lg:text-[18px] mt-2">
                     {event.venue_text}
-                  </h2>
+                  </h2> */}
 
                   <p className="text-[#15528A] font-playfair-display text-sm md:text-base mt-2">
                     <span className="text-sm md:text-base lg:text-xl font-semibold">{event.venue_date}</span> <br />

@@ -307,14 +307,14 @@ export default function Home() {
                 A lifetime of laughter, love and togetherness.
               </p> */}
 
-              <p className="text-[#15528A] font-eb-garamond text-[12px] md:text-xl lg:text-2xl mt-2 lg:px-100 3xl:px-150 px-0 md:px-60">
+              <p className="text-[#15528A] font-eb-garamond text-[11px] md:text-xl lg:text-2xl mt-2 lg:px-100 3xl:px-150 px-0 md:px-60">
                 As they begin this journey, <br />
                 your presence will be one of the most beautiful<br />
                 parts of their celebration.
               </p>
 
 
-              <p className="text-[#15528A] font-eb-garamond text-[12px] md:text-xl lg:text-2xl mt-2 lg:px-100 3xl:px-150 px-0 md:px-60">
+              <p className="text-[#15528A] font-eb-garamond text-[11px] md:text-xl lg:text-2xl mt-2 lg:px-100 3xl:px-150 px-0 md:px-60">
                 Come raise a glass, share a prayer,<br />
                 dance a little longer and celebrate a love<br />
                 that brings two families together.

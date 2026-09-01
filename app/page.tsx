@@ -204,7 +204,7 @@ export default function Home() {
               Joyfully invites you to celebrate
             </p> */}
 
-            <h2 className="text-[#15528A] font-playfair-display text-center mt-14 text-4xl md:text-6xl lg:text-[100px] leading-tight font-semibold">
+            <h2 className="text-[#15528A] font-playfair-display text-center mt-6 text-4xl md:text-6xl lg:text-[100px] leading-tight font-semibold">
               Daizy Singh
               <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl italic">
               Daughter of Tajish Kaur & Late Jagmohan Singh

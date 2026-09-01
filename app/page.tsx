@@ -140,7 +140,7 @@ export default function Home() {
 
         <RoseHeroTemp />
 
-        <div className="pt-40 md:pt-105 lg:pt-150 3xl:pt-00 relative z-10">
+        <div className="pt-42 md:pt-105 lg:pt-150 3xl:pt-00 relative z-10">
           <h2 className="text-[#AE633A] text-center leading-tight text-xl md:text-5xl lg:text-[80px] pb-120
                           md:pb-280 lg:pb-450 3xl:pb-500 flex flex-col items-center gap-y-0 lg:gap-y-5">
 

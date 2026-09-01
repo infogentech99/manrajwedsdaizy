@@ -15,12 +15,12 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://manrajwedsdaizy.vercel.app/"),
+  metadataBase: new URL("https://manrajwedsdaizy1.vercel.app/"),
 
   openGraph: {
     title: "Manraj Singh Somal & Daizy Singh",
     description: "Join as they begin their forever. 28 & 30 October, 2026",
-    url: "https://manrajwedsdaizy.vercel.app/",
+    url: "https://manrajwedsdaizy1.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
 
  other: {
-    "og:image:secure_url": "https://manrajwedsdaizy.vercel.app/og.jpg",
+    "og:image:secure_url": "https://manrajwedsdaizy1.vercel.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 

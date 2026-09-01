@@ -1,12 +1,12 @@
 export default function CoupleMessage() {
   return (
-    <div className="bg-[url('/assets/respo_bg_two5n.png')] md:bg-[url('/assets/bg_two4n.png')] bg-cover bg-no-repeat">
-      <div className="h-230 md:h-585 lg:h-480 3xl:h-570">
+    <div className="bg-[url('/assets/respo_bg_twon22.webp')] md:bg-[url('/assets/bg_twon2.webp')] bg-cover bg-no-repeat">
+      <div className="h-230 md:h-245 lg:h-480 3xl:h-570">
       
 
-        <div className="flex justify-center md:justify-end md:pr-5 lg:pr-10 3xl:pr-30 lg:pl-240 3xl:pl-300 ">
+        <div className="flex justify-center md:justify-end md:pr-5 lg:pr-10 3xl:pr-30 lg:pl-240 3xl:pl-300 md:pl-120 ">
           <div className="3xl:mt-125 mt-15">
-            <h2 className="font-cormorant-upright font-semibold text-center text-[16px] md:text-2xl lg:text-[24px] uppercase text-[#15528A] pt-0 md:pt-190 lg:pt-202 3xl:pt-150 md:leading-8 lg:leading-14 leading-8 px-10 md:px-0">
+            <h2 className="font-cormorant-upright font-semibold text-center text-[16px] md:text-2xl lg:text-[24px] uppercase text-[#15528A] pt-0 md:pt-70 lg:pt-202 3xl:pt-150 md:leading-8 lg:leading-14 leading-8 px-10 md:px-0">
               We cannot Wait
             </h2>
 

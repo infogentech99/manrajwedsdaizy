@@ -57,7 +57,7 @@ useEffect(() => {
 
     return (
         <>
-            <div className="bg-[url('/assets/bg_four.webp')] bg-cover bg-no-repeat">
+            <div className="bg-[url('/assets/bg_fourn2.webp')] bg-cover bg-no-repeat">
                 <div className="flex flex-col h-70 md:h-89 lg:h-165 3xl:h-210 md:gap-3 lg::gap-8 3xl:gap-8">
                     <h2 className="text-xl md:text-4xl lg:text-[60px] text-center text-[#15528A] pt-18 md:pt-11 lg:pt-42 3xl:pt-55 font-parisienne-regular">The Journey Begins</h2> 
                      <p className="text-xs md:text-xl lg:text-[26px] text-[#15528A] mt-4 text-center px-6 md:px-25 lg:px-65 3xl:px-120 font-playfair-display">

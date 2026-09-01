@@ -60,8 +60,8 @@ export default function Home() {
       image: "/assets/anand.png",
       venue_date: "Friday, 30th October 2026 ",
       venue_time: "11 AM Onwards",
-      venue_address: <>Gurudwara Singh Sabha, Bilhari <br /> </>,
-      link: "https://maps.app.goo.gl/J8xLdsUC1PTdgQrN9",
+      venue_address: <>Gurdwara Singh Sabha<br /> M49J+W56, Rd Number 50, <br/>Punjabi Bagh, Delhi, 110026</>,
+      link: "https://maps.app.goo.gl/XvTQ5BonxsDZeE1m7",
     },
 
 
@@ -126,14 +126,14 @@ export default function Home() {
       <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
 
       {/* hero section */}
-      <div className=" bg-[url('/assets/respo_bg_11zon.webp')] md:bg-[url('/assets/background.webp')] 3xl:bg-[url('/assets/bg.webp')]
+      <div className=" bg-[url('/assets/respo_bg_n3.webp')]  md:bg-[url('/assets/bg_n3.webp')]
                        bg-cover bg-no-repeat bg-top md:bg-position-[center_top] lg:bg-center w-full overflow-hidden relative">
 
         <RoseHeroTemp />
 
-        <div className="pt-38 md:pt-88 lg:pt-150 3xl:pt-200 relative z-10">
+        <div className="pt-38 md:pt-95 lg:pt-150 3xl:pt-00 relative z-10">
           <h2 className="text-[#AE633A] text-center leading-tight text-xl md:text-5xl lg:text-[80px] pb-120
-                          md:pb-350 lg:pb-470 3xl:pb-550 flex flex-col items-center gap-y-0 lg:gap-y-5">
+                          md:pb-250 lg:pb-450 3xl:pb-600 flex flex-col items-center gap-y-0 lg:gap-y-5">
 
             <span className="font-playfair-display italic">Manraj Singh Somal</span>
 
@@ -151,7 +151,7 @@ export default function Home() {
             <Image
               src="/assets/vachan.webp"
               alt="idol" width={100} height={100}
-              className="w-20 h-15.5 md:w-40 md:h-40 lg:w-40 lg:h-31 object-cover" />
+              className="w-20 h-15.5 md:w-32 md:h-25 lg:w-40 lg:h-31 object-cover" />
 
             <h2 className="text-[#15528A] text-sm md:text-xl lg:text-3xl md:pt-8 font-playfair-display">
               With the blessings of Waheguru
@@ -242,12 +242,12 @@ export default function Home() {
             {/* Center Text */}
             {/* <div className="absolute flex flex-col justify-center text-center md:mb-0 lg:mb-0 md:top-50 lg:top-84 3xl:top-152"> */}
             <div className="absolute left-0 right-0 w-full flex flex-col items-center justify-center text-center md:mb-0 lg:mb-0 md:top-50 lg:top-84 3xl:top-152 -mt-10">
-              <p className="font-playfair-display font-semibold text-xl md:text-2xl lg:text-[40px] text-[#15528A] w-60 leading-5 md:leading-10 md:w-200">
+              <p className="font-playfair-display font-semibold text-xl md:text-2xl lg:text-[40px] text-[#15528A] w-60 leading-5 md:leading-10 lg:w-200 md:w-100">
                 As we begin this beautiful new chapter,
                 we would be honoured to have you by our side.
               </p>
 
-              <p className="text-[#15528A] font-eb-garamond text-sm md:text-xl lg:text-3xl mt-4 lg:px-150 px-25 md:px-60">
+              <p className="text-[#15528A] font-eb-garamond text-sm md:text-xl lg:text-3xl mt-4 lg:px-100 3xl:px-150 px-28 md:px-60">
                 As we begin this beautiful new chapter,
                 we would be honoured to have you by our side.
               </p>

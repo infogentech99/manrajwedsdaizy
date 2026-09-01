@@ -61,15 +61,15 @@ export default function Home() {
       title_ceremony: "Anand Karaj",
       subtitle: <>In the presence of Waheguru Ji, <br />
         two souls come together and two families become one.</>,
-      venue_text: <>We invite you to join us as Daizy and Manraj <br />
-        take the first steps of their journey as one, <br />
-        surrounded by the prayers, blessings and love <br />
-        of those who mean the most.</>,
+      // venue_text: <>We invite you to join us as Daizy and Manraj <br />
+      //   take the first steps of their journey as one, <br />
+      //   surrounded by the prayers, blessings and love <br />
+      //   of those who mean the most.</>,
       image: "/assets/anand.png",
       venue_name: "Gurdwara Singh Sabha",
       venue_date: "Friday, 30th October 2026 ",
       venue_time: "11 AM Onwards",
-      venue_address: <>M49J+W56, Rd Number 50, <br />Punjabi Bagh, New Delhi</>,
+      venue_address: <>Rd Number 50, <br />Punjabi Bagh, New Delhi</>,
       link: "https://maps.app.goo.gl/XvTQ5BonxsDZeE1m7",
     },
 
@@ -146,7 +146,7 @@ export default function Home() {
 
             <span className="font-playfair-display italic">Manraj Singh Somal</span>
 
-            <span className="font-playfair-display text-base md:text-2xl lg:text-[38px] tracking-widest font-cormorant italic">Weds</span>
+            <span className="font-playfair-display text-base md:text-2xl lg:text-[38px] tracking-widest font-cormorant italic mt-1">Weds</span>
 
             <span className="font-playfair-display italic">Daizy Singh</span>
 
@@ -162,20 +162,23 @@ export default function Home() {
               alt="idol" width={100} height={100}
               className="w-20 h-15.5 md:w-32 md:h-25 lg:w-40 lg:h-31 object-cover" />
 
-            <h2 className="text-[#15528A] text-sm md:text-xl lg:text-2xl md:pt-8 font-playfair-display font-semibold">
+            <h2 className="text-[#15528A] text-[12px] md:text-xl lg:text-2xl md:pt-8 font-playfair-display font-semibold">
               WITH THE BLESSINGS OF WAHEGURU JI
               <br />
-              <span className="text-[#15528A] text-xl md:text-xl lg:text-3xl font-playfair-display font-semibold">
+              <br/>
+              <span className="text-[#15528A] text-[14px] md:text-xl lg:text-3xl font-playfair-display font-semibold">
                 A CELEBRATION OF LOVE, FAMILY & NEW BEGINNINGS</span>
             </h2>
 
-            <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display">
-              Some moments are destined to become cherished memories.
-            </h2>
-            <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display">
+            <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display italic">
+              Some moments are destined to become cherished memories. <br/>
               With immense joy and gratitude, <br />
               the Singh family requests the pleasure of your presence as
             </h2>
+            {/* <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display">
+              With immense joy and gratitude, <br />
+              the Singh family requests the pleasure of your presence as
+            </h2> */}
 
             {/* <Image
               src="/assets/arrow.png"
@@ -203,30 +206,34 @@ export default function Home() {
 
             <h2 className="text-[#15528A] font-playfair-display text-center mt-14 text-4xl md:text-6xl lg:text-[100px] leading-tight font-semibold">
               Daizy Singh
-            </h2>
-
-            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-0 italic">
+              <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl italic">
               Daughter of Tajish Kaur & Late Jagmohan Singh
             </p>
-
-            <h2 className="text-[#15528A] font-playfair-display text-center mt-4 text-4xl md:text-6xl lg:text-[100px] leading-tight font-semibold">
-              <span className="text-[#15528A] font-playfair-display text-center lg:mt-10 mt-0 text-4xl md:text-6xl lg:text-[100px] leading-tight">
-                & </span>   <br />Manraj Singh Somal
             </h2>
+<p className="text-[#15528A] font-playfair-display text-center text-4xl md:text-6xl lg:text-[100px] leading-tight font-semibold">
+              <span className="text-[#15528A] font-playfair-display text-center lg:mt-10 text-4xl md:text-6xl lg:text-[100px] leading-tight">
+                & </span>
+           
+            </p>
+            
 
-            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-0 italic">
+            <p className="text-[#15528A] font-playfair-display text-center text-4xl md:text-6xl lg:text-[100px] leading-tight font-semibold">
+              Manraj Singh Somal <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-0 italic">
               Son of Gurnam Singh Somal & Jaswinder Kaur Somal
             </p>
+            </p>
+
+            
 
             <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display">
               Begin their journey together, surrounded by the love of their families
             </h2>
 
 
-            <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-8 font-bold">
+            <p className="text-[#15528A] font-playfair-display text-xl md:text-xl lg:text-3xl mt-8 font-bold">
               IN CELEBRATION
             </p>
-            <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display">
+            <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display italic">
               As two hearts unite and two families come together, <br />
               we invite you to share in the joy of this beautiful occasion<br />
               and raise a toast to a lifetime of love, laughter and togetherness.
@@ -281,10 +288,10 @@ export default function Home() {
 
 
 
-          <div className="relative flex flex-col items-center pt-80 lg:pt-50 3xl:pt-90 3xl:gap-60">
+          <div className="relative flex flex-col items-center pt-40 lg:pt-50 3xl:pt-90 3xl:gap-60">
             {/* Center Text */}
             {/* <div className="absolute flex flex-col justify-center text-center md:mb-0 lg:mb-0 md:top-50 lg:top-84 3xl:top-152"> */}
-            <div className="absolute left-0 right-0 w-full flex flex-col items-center justify-center text-center md:mb-0 lg:mb-0 md:top-50 lg:top-84 3xl:top-152 -mt-50">
+            <div className="absolute left-0 right-0 w-full flex flex-col items-center justify-center text-center md:mb-0 lg:mb-0 md:top-50 lg:top-84 3xl:top-152 mt-1">
 
               {/* <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-8 font-bold">
              
@@ -294,20 +301,20 @@ export default function Home() {
                 AND SO, IT BEGINS…
               </p>
               
-              <p className="text-[#15528A] font-eb-garamond text-sm md:text-xl lg:text-2xl mt-4 lg:px-100 3xl:px-150 px-0 md:px-60 italic">
+              {/* <p className="text-[#15528A] font-eb-garamond text-sm md:text-xl lg:text-2xl mt-4 lg:px-100 3xl:px-150 px-0 md:px-60 italic">
                 A new home to build. <br />
                 A thousand memories to make. <br />
                 A lifetime of laughter, love and togetherness.
-              </p>
+              </p> */}
 
-              <p className="text-[#15528A] font-eb-garamond text-sm md:text-xl lg:text-2xl mt-4 lg:px-100 3xl:px-150 px-0 md:px-60">
+              <p className="text-[#15528A] font-eb-garamond text-[12px] md:text-xl lg:text-2xl mt-2 lg:px-100 3xl:px-150 px-0 md:px-60">
                 As they begin this journey, <br />
                 your presence will be one of the most beautiful<br />
                 parts of their celebration.
               </p>
 
 
-              <p className="text-[#15528A] font-eb-garamond text-sm md:text-xl lg:text-2xl mt-4 lg:px-100 3xl:px-150 px-0 md:px-60">
+              <p className="text-[#15528A] font-eb-garamond text-[12px] md:text-xl lg:text-2xl mt-2 lg:px-100 3xl:px-150 px-0 md:px-60">
                 Come raise a glass, share a prayer,<br />
                 dance a little longer and celebrate a love<br />
                 that brings two families together.

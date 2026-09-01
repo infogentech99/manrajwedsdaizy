@@ -140,7 +140,7 @@ export default function Home() {
 
         <RoseHeroTemp />
 
-        <div className="pt-38 md:pt-105 lg:pt-150 3xl:pt-00 relative z-10">
+        <div className="pt-40 md:pt-105 lg:pt-150 3xl:pt-00 relative z-10">
           <h2 className="text-[#AE633A] text-center leading-tight text-xl md:text-5xl lg:text-[80px] pb-120
                           md:pb-280 lg:pb-450 3xl:pb-500 flex flex-col items-center gap-y-0 lg:gap-y-5">
 
@@ -307,7 +307,7 @@ export default function Home() {
                 A lifetime of laughter, love and togetherness.
               </p> */}
 
-              <p className="text-[#15528A] font-eb-garamond text-[10px] md:text-xl lg:text-2xl mt-2 lg:px-100 3xl:px-150 px-0 md:px-60">
+              <p className="text-[#15528A] font-eb-garamond text-[10px] md:text-xl lg:text-2xl mt-2 lg:px-100 3xl:px-150 px-0 md:px-60 italic">
                 As they begin this journey, <br />
                 your presence will be one of the most beautiful<br />
                 parts of their celebration.

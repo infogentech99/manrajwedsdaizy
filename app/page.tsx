@@ -144,11 +144,11 @@ export default function Home() {
           <h2 className="text-[#AE633A] text-center leading-tight text-xl md:text-5xl lg:text-[80px] pb-120
                           md:pb-280 lg:pb-450 3xl:pb-500 flex flex-col items-center gap-y-0 lg:gap-y-5">
 
-            <span className="font-playfair-display italic">Manraj Singh Somal</span>
+            <span className="font-playfair-display italic">Daizy Singh</span>
 
             <span className="font-playfair-display text-base md:text-2xl lg:text-[38px] tracking-widest font-cormorant italic mt-1">Weds</span>
 
-            <span className="font-playfair-display italic">Daizy Singh</span>
+            <span className="font-playfair-display italic">Manraj Singh Somal</span>
 
           </h2>
 

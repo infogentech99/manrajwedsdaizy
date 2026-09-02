@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://manrajwedsdaizy1.vercel.app/"),
 
   openGraph: {
-    title: "Manraj Singh Somal & Daizy Singh",
+    title: "Daizy Singh & Manraj Singh Somal",
     description: "Join as they begin their forever. 28 & 30 October, 2026",
     url: "https://manrajwedsdaizy1.vercel.app/",
     siteName: "InviteArc",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Manraj Singh Somal & Daizy Singh ",
+        alt: "Daizy Singh & Manraj Singh Somal",
       }, 
     ],
     type: "website",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Manraj Singh Somal & Daizy Singh",
+    title: "Daizy Singh & Manraj Singh Somal",
     description: "Join as they begin their forever. 28 & 30 October, 2026",
     images: ["/og.jpg"],
   },

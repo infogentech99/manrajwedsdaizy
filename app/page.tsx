@@ -49,7 +49,7 @@ export default function Home() {
       title_ceremony: "Cocktail",
       subtitle: <>An intimate evening of fine spirits, music, <br /> laughter and cherished company</>,
       image: "/assets/cocktail_n.png",
-      venue_name: "IRALUXE,",
+      venue_name: "IRALUXE",
       venue_date: "Wednesday, 28 October 2026 ",
       venue_time: " 9:00 PM Onwards",
       venue_address: <>Farm house No. 5, <br /> Khasra No.1508, Bhatti mines, <br />  Asola, New Delhi<br /></>,
